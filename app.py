@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # response
 def response():
-    query = dict(request.form)['query'].lower()
+    query = dict(request.form)['query']
 
     ques = related(query)
 
@@ -24,32 +24,32 @@ def related(x_text):
         y_text = "are you a robot?"
     elif "how are" in x_text: 
         y_text = "how are you?"
-    elif "video": 
+    elif "video" in x_text: 
         y_text = "how do I upload videos?"
-    elif "order medications":
+    elif "order medications" in x_text: 
         y_text = "how do I order medications"
-    elif "report":
+    elif "report" in x_text: 
         y_text = "how do I report side effects?"
-    elif "treatment":
+    elif "treatment" in x_text: 
         y_text = "where can I find common treatment side effect?"
-    elif "tb":
+    elif "tb" in x_text: 
         y_text = "where can I find information about tuberculosis/TB treatment?"
-    elif "reminders":
+    elif "reminders" in x_text: 
         y_text = "how do I switch on/off reminders to consume my medication?"
-    elif "orange color":
+    elif "orange color" in x_text: 
         y_text = "Why is my urine orange in colour?"
-    elif "how to take":
+    elif "how to take" in x_text: 
         y_text = "how should I take the medications?"
-    elif "discharged":
+    elif "discharged" in x_text: 
         y_text = "how should about my day since discharged from hospital?"
-    elif "eye clinic":
+    elif "eye clinic" in x_text: 
         y_text = "referral to eye clinic"
-    elif "family":
+    elif "family" in x_text: 
         y_text = "should my family members that I live with get screened for TB?"
-    elif "default":
+    elif "default" in x_text: 
         y_text = "this is a default message"
-    elif " ":
-        y_text = ""
+    elif " " in x_text: 
+        y_text = " "
     else: 
         y_text = ""
     return y_text
@@ -81,7 +81,7 @@ responses = {
         "I am {0}! How about yourself?".format(mood), 
     ],
 
-    "": [ 
+    " ": [ 
         "Hey! Are you there?", 
         "What do you mean by saying nothing?", 
         "Sometimes saying nothing tells a lot :)", 
