@@ -6,13 +6,13 @@ app = Flask(__name__)
 @app.route("/bot", methods=["POST"])
 
 # response
-def response(message):
+def response():
     query = dict(request.form)['query']
 
     if query in responses:
-        res = random.choice(responses[message])
+        res = random.choice(responses[query])
     else:
-        res = random.choice(responses[message])
+        res = random.choice(responses[query])
     # res = query + " " + time.ctime()
     return jsonify({"response" : res})
 
