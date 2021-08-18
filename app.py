@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify,request
 import time
 
 app = Flask(__name__)
@@ -7,8 +7,8 @@ app = Flask(__name__)
 # response
 def response():
     query = dict(request.form)['query']
-    result = query + " " + time.ctime()
-    return jsonify({"response" : result})
+    res = query + " " + time.ctime()
+    return jsonify({"response" : res})
 
-if __name__ == '__main__':
+if __name__== "__main__":
     app.run(host="0.0.0.0",)
