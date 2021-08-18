@@ -36,8 +36,8 @@ def related(x_text):
         y_text = "where can I find information about tuberculosis/TB treatment?"
     elif "reminders" in x_text: 
         y_text = "how do I switch on/off reminders to consume my medication?"
-    elif "orange color" in x_text: 
-        y_text = "Why is my urine orange in colour?"
+    elif "orange" in x_text: 
+        y_text = "why is my urine orange in colour?"
     elif "how to take" in x_text: 
         y_text = "how should I take the medications?"
     elif "discharged" in x_text: 
