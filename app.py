@@ -28,7 +28,7 @@ def related(x_text):
         y_text = "how do I upload videos?"
     elif "order medications" in x_text: 
         y_text = "how do I order medications"
-    elif "report" in x_text: 
+    elif "side effect" in x_text: 
         y_text = "how do I report side effects?"
     elif "treatment" in x_text: 
         y_text = "where can I find common treatment side effect?"
