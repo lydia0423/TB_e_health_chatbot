@@ -13,7 +13,7 @@ def response():
     if ques in responses:
         res = random.choice(responses[ques])
     else:
-        res = 'not understand'
+        res = random.choice(responses[ques == 'not understand'])
 
     return jsonify({"response" : res})
 
@@ -48,8 +48,6 @@ def related(x_text):
         y_text = "should my family members that I live with get screened for TB?"
     elif "default" in x_text: 
         y_text = "this is a default message"
-    elif " " in x_text: 
-        y_text = " "
     elif "tb test" in x_text:
         y_text = "where can I go for a tb test?"
     elif "nearest hospital" in x_text:
@@ -70,6 +68,8 @@ def related(x_text):
         y_text = "petaling"
     elif "sabak bernam" in x_text:
         y_text = "sabak bernam"
+    elif " " in x_text: 
+        y_text = " "
     else: 
         y_text = "not understand"
     return y_text
@@ -184,10 +184,6 @@ responses = {
 
     "should my family members that I live with get screened for TB?": [
         "Yes.  Each family member who is staying within the same household or have been in contact with patient MUST do TB screening at Rawatan Utama Kesihatan Awam (RUKA) or nearest Klinik Kesihatan."
-    ],
-
-    "default": [
-        "this is a default message"
     ],
 
     "where can I go for a tb test?": [
@@ -314,5 +310,9 @@ responses = {
 
     "not understand": [
         "This is me telling you I didn't understand what you just said. I'm learning, you see. Could you try again?"
-    ]
+    ],
+
+    "default": [
+        "this is a default message"
+    ],
 }
