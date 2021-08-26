@@ -13,7 +13,7 @@ def response():
     if ques in responses:
         res = random.choice(responses[ques])
     else:
-        res = random.choice(responses[ques])
+        res = 'not understand'
 
     return jsonify({"response" : res})
 
@@ -50,8 +50,28 @@ def related(x_text):
         y_text = "this is a default message"
     elif " " in x_text: 
         y_text = " "
+    elif "tb test" in x_text:
+        y_text = "where can I go for a tb test?"
+    elif "nearest hospital" in x_text:
+        y_text = "where are the nearest hospital?"
+    elif "gombak" in x_text:
+        y_text = "gombak"
+    elif "hulu langat" in x_text:
+        y_text = "hulu langat"
+    elif "hulu selangor" in x_text:
+        y_text = "hulu selangor"
+    elif "klang" in x_text:
+        y_text = "klang"
+    elif "kuala langat" in x_text:
+        y_text = "kuala langat"
+    elif "kuala selangor" in x_text:
+        y_text = "kuala selangor"
+    elif "petaling" in x_text:
+        y_text = "petaling"
+    elif "sabak bernam" in x_text:
+        y_text = "sabak bernam"
     else: 
-        y_text = ""
+        y_text = "not understand"
     return y_text
 
 if __name__== "__main__":
@@ -59,7 +79,7 @@ if __name__== "__main__":
 
 
 # QnA template
-name = "UM Bot 101"
+name = "Umi"
 mood = "Happy"
 
 responses = {
@@ -168,5 +188,131 @@ responses = {
 
     "default": [
         "this is a default message"
+    ],
+
+    "where can I go for a tb test?": [
+        '''
+        There are 2 approved hospital that you can go for TB test.
+        1. Dr Ong Kee Liang - Life Care Diagnostic Medical Centre
+            Life Care Diagnostic Medical Centre SDN BHD
+            1st Floor, Wisma Life Care
+            No. 5, Jalan Kerinchi, Bangsar South
+            59200 Kuala Lumpur
+            Tel: +6 03 2241 3610
+            SMS/Whatsapp: +6 012 234 3610
+            Fax: +6 03 2241 3617
+            Email: info@lifecare.com.my
+            Website: www.lifecare.com.my
+        
+        2. Janice Lim - Health Screening Centre
+            Gleneagles Hospital (Kuala Lumpur)
+            282 and 286 Jalan Ampang,
+            50450 Kuala Lumpur, Malaysia
+            Tel: 603-4141 3282
+            Fax: 603-4141 3280
+            janicelim@gleneagleskl.com.my
+            www.gleneagleskl.com.my
+        '''
+    ],
+
+    "what should I bring for tb test": [
+        '''
+        You need to bring with you:
+
+        1. proof of identification, which contains your photograph, such as your passport
+        2. TB test fee
+        3. details of previous screenings and, if possible, medical notes and x-ray results, if you have had TB in the past or have any other lung disease
+        '''
+    ],
+
+    "where are the nearest hospital?" : [
+        '''
+        Where do you mean nearest??? Can you select the area that listed below?
+        1. Gombak
+        2. Hulu Langat
+        3. Hulu Selangor
+        4. Klang 
+        5. Kuala Langat 
+        6. Kuala Selangor
+        7. Petaling
+        8. Sabak Bernam
+        '''
+    ],
+
+    "gombak": [
+        '''
+        1. Hospital Orang Asli Gombak                            
+        2. Hospital Selayang 
+        '''
+    ],
+
+    "hulu langat": [
+        '''
+        1. Hospital Ampang                                       
+        2. Hospital Kajang                                       
+        3. Hospital PUSRAWARI SMC                                
+        4. Hospital Pakar Ampang Puteri                          
+        5. Hospital Pakar An-Nur Hasanah                         
+        6. Hospital Pantai Ampang                                
+        7. Hospital Serdang                                      
+        8. KPJ Kajang Specelish Hospital                         
+        9. Kajang Medical Centre                                 
+        10.Kajang Plaza Medical Centre
+        '''
+    ],
+
+    "hulu selangor": [
+        '''
+        1. Hospital Kuala Kubu Bharu                             
+        2. Klinik Pakar Bersalin & Bedah Serendah 
+        '''
+    ],
+
+    "klang": [
+        "Hospital Tengku Ampuan Rahimah (HTAR)"
+    ],
+
+    "kuala Langat": [
+        "Hospital Banting"
+    ],
+
+    "kuala Selangor": [
+        "Hospital Tanjung Karang"
+    ],
+
+    "petaling": [
+        '''
+        Assunta Hospital                                      
+            1. Columbia Asia Medical Centre, Puchong                 
+            2. Darul Ehsan Medical Centre                            
+            3. Hospital Bersalin, Klinik Pakar & Poliklinik Pusat    
+            4. Hospital Mata Tun Hussien Onn                         
+            5. Hospital Pakar Damansara                              
+            6. Hospital Rawatan Lanjutan Columbia Asia               
+            7. Hospital Shah Alam                                    
+            8. Hospital Sungai Buloh                                 
+            9. KPJ Selangor Specialist Hospital                      
+            10. KPMC Puchong Medical Centre                           
+            11. Kelana Jaya Medical Centre                            
+            12. Klinik Pakar Wanita dan Bersalin Subang Permai        
+            13. Pusat Jagaan Ambulatori Swasta                        
+            14. Pusat Perubatan Damansara Damai                       
+            15. Pusat Peubatan Putra                                  
+            16. QHC Medical Centre                                    
+            17. Shah Alam Specialist Hospital                         
+            18. Sime Darby Specialist Centre Megah Sdn Bhd            
+            19. Subang Jaya Medical Centre                            
+            20. Sunway Medical Centre                                 
+            21. Tropicana Medical Centre                              
+            22. Wijaya International Medical Centre 
+        '''
+    ],
+
+    "sabak bernam": [
+        "Hospital Tengku Ampuan Jemaah (HTAJ)"
+    ],
+
+    "not understand": [
+        "This is me telling you I didn't understand what you just said. I'm learning, you see. Could you try again?"
     ]
 }
