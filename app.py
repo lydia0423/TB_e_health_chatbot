@@ -48,8 +48,10 @@ def related(x_text):
         y_text = "should my family members that I live with get screened for TB?"
     elif "default" in x_text: 
         y_text = "this is a default message"
-    elif "tb test" in x_text:
+    elif "test" in x_text:
         y_text = "where can I go for a tb test?"
+    elif "bring" in x_text:
+        y_text = "what should I bring for tb test?"
     elif "nearest hospital" in x_text:
         y_text = "where are the nearest hospital?"
     elif "gombak" in x_text:
@@ -211,7 +213,7 @@ responses = {
         '''
     ],
 
-    "what should I bring for tb test": [
+    "what should I bring for tb test?": [
         '''
         You need to bring with you:
 
@@ -278,29 +280,29 @@ responses = {
 
     "petaling": [
         '''
-        Assunta Hospital                                      
-            1. Columbia Asia Medical Centre, Puchong                 
-            2. Darul Ehsan Medical Centre                            
-            3. Hospital Bersalin, Klinik Pakar & Poliklinik Pusat    
-            4. Hospital Mata Tun Hussien Onn                         
-            5. Hospital Pakar Damansara                              
-            6. Hospital Rawatan Lanjutan Columbia Asia               
-            7. Hospital Shah Alam                                    
-            8. Hospital Sungai Buloh                                 
-            9. KPJ Selangor Specialist Hospital                      
-            10. KPMC Puchong Medical Centre                           
-            11. Kelana Jaya Medical Centre                            
-            12. Klinik Pakar Wanita dan Bersalin Subang Permai        
-            13. Pusat Jagaan Ambulatori Swasta                        
-            14. Pusat Perubatan Damansara Damai                       
-            15. Pusat Peubatan Putra                                  
-            16. QHC Medical Centre                                    
-            17. Shah Alam Specialist Hospital                         
-            18. Sime Darby Specialist Centre Megah Sdn Bhd            
-            19. Subang Jaya Medical Centre                            
-            20. Sunway Medical Centre                                 
-            21. Tropicana Medical Centre                              
-            22. Wijaya International Medical Centre 
+            1. Assunta Hospital                                      
+            2. Columbia Asia Medical Centre, Puchong                 
+            3. Darul Ehsan Medical Centre                            
+            4. Hospital Bersalin, Klinik Pakar & Poliklinik Pusat    
+            5. Hospital Mata Tun Hussien Onn                         
+            6. Hospital Pakar Damansara                              
+            7. Hospital Rawatan Lanjutan Columbia Asia               
+            8. Hospital Shah Alam                                    
+            9. Hospital Sungai Buloh                                 
+            10. KPJ Selangor Specialist Hospital                      
+            11. KPMC Puchong Medical Centre                           
+            12. Kelana Jaya Medical Centre                            
+            13. Klinik Pakar Wanita dan Bersalin Subang Permai        
+            14. Pusat Jagaan Ambulatori Swasta                        
+            15. Pusat Perubatan Damansara Damai                       
+            16. Pusat Peubatan Putra                                  
+            17. QHC Medical Centre                                    
+            18. Shah Alam Specialist Hospital                         
+            19. Sime Darby Specialist Centre Megah Sdn Bhd            
+            20. Subang Jaya Medical Centre                            
+            21. Sunway Medical Centre                                 
+            22. Tropicana Medical Centre                              
+            23. Wijaya International Medical Centre 
         '''
     ],
 
