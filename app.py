@@ -225,7 +225,7 @@ responses = {
 
     "where are the nearest hospital?" : [
         '''
-        Where do you mean nearest??? Can you select the area that listed below?
+        Where do you mean nearest? Can you select the area that listed below and type the area name?
         1. Gombak
         2. Hulu Langat
         3. Hulu Selangor
