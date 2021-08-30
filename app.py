@@ -9,11 +9,12 @@ def response():
     query = dict(request.form)['query']
 
     ques = related(query)
+    q = ques.lower()
 
-    if ques.str.lower() in responses:
-        res = random.choice(responses[ques])
+    if q in responses:
+        res = random.choice(responses[q])
     else:
-        res = random.choice(responses[ques == 'not understand'])
+        res = random.choice(responses[q == 'not understand'])
 
     return jsonify({"response" : res})
 
