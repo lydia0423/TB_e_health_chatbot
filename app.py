@@ -26,16 +26,18 @@ def related(x_text):
         y_text = "how are you?"
     elif "video" in x_text: 
         y_text = "how do I upload videos?"
+    elif "track record" in x_text:
+        y_text = "how can I check my track record of uploading the videos?"
     elif "order medications" in x_text: 
         y_text = "how do I order medications"
     elif "side effect" in x_text: 
         y_text = "how do I report side effects?"
-    elif "treatment" in x_text: 
-        y_text = "where can I find common treatment side effect?"
+    elif "information" in x_text: 
+        y_text = "where can I find useful information regarding the use of the app?"
     elif "tb" in x_text: 
-        y_text = "where can I find information about tuberculosis/TB treatment?"
-    elif "reminders" in x_text: 
-        y_text = "how do I switch on/off reminders to consume my medication?"
+        y_text = "where can I find useful information regarding tuberculosis?"
+    elif "contact" in x_text: 
+        y_text = "who can I contact if I encounter a problem with the regarding app?"
     elif "orange" in x_text: 
         y_text = "why is my urine orange in colour?"
     elif "how to take" in x_text: 
@@ -44,8 +46,8 @@ def related(x_text):
         y_text = "how should about my day since discharged from hospital?"
     elif "eye clinic" in x_text: 
         y_text = "referral to eye clinic"
-    elif "family" in x_text: 
-        y_text = "should my family members that I live with get screened for TB?"
+    elif "household" in x_text: 
+        y_text = "should my family members that I live with any of my household close contact get screened for TB?"
     elif "default" in x_text: 
         y_text = "this is a default message"
     elif "test" in x_text:
@@ -70,6 +72,30 @@ def related(x_text):
         y_text = "petaling"
     elif "sabak bernam" in x_text:
         y_text = "sabak bernam"
+    elif "xray" in x_text:
+        y_text = "where are the nearest hospital that provide xray service?"
+    elif "selangor" in x_text:
+        y_text = "selangor"
+    elif "gombak area" in x_text:
+        y_text = "gombak area"
+    elif "hulu langat area" in x_text:
+        y_text = "hulu langat area"
+    elif "hulu selangor area" in x_text:
+        y_text = "hulu selangor area"
+    elif "kelang area" in x_text:
+        y_text = "kelang area"
+    elif "kuala selangor area" in x_text:
+        y_text = "kuala selangor area"
+    elif "petaling area" in x_text:
+        y_text = "petaling area"
+    elif "sabak area" in x_text:
+        y_text = "sabak area"
+    elif "sepang area" in x_text:
+        y_text = "sepang area"
+    elif "putrajaya" in x_text:
+        y_text = "putrajaya"
+    elif "labuan" in x_text:
+        y_text = "labuan"
     elif " " in x_text: 
         y_text = " "
     else: 
@@ -111,51 +137,50 @@ responses = {
 
     "how do I upload videos?": [
         '''
-        1. To upload videos, on the Home page, select “Upload video”
-        2. Click on the "Record button" (red color)
-        3. After finishing recording, click on the "Send button" to upload the video.
+        1. Select DOTS Therapy
+        2. Select Video, record yourself
+        3. Select Upload
+        4. You will receive a confirmation message
         '''
+    ],
+
+    "how can I check my track record of uploading the videos?": [
+        "Please check My DOTS Therapy progress in your user profile"
     ],
 
     "how do I order medications?": [
         '''
-        1. To order medications, on the Home page, select on “Drug Delivery”
-        2. Select “Drug Delivery” again
-        3. Select “Confirm Order”
-        4. It will lead you to the “Drug Delivery Service” page
+        1. Select Drug Delivery
+        2. Select Confirm Order
         '''
     ],
 
     "how do I report side effects?": [
         '''
-        1. To report side effect, on the Home page, select “Side effect” button.
-        2. Select “Click here for the list of symptoms”
-        3. Check the boxes that apply to you
-        4. Select the day when these symptoms start
-        5. Select “Submit”
-        6. Our nurses will schedule a teleconsultation via chatbot if it is deemed necessary.
+        1. Select Side-effect
+        2. Check the side-effects that apply to you
+        3. Select the day when these symptoms start
+        4. Select Submit
+        5. Our healthcare staff will get in touch with you
         '''
     ],
 
-    "where can I find common treatment side effect?": [
+    "where can I find useful information regarding the use of the app?": [
         '''
         1. To find common treatment side effect, on the Home page, select “QnA” from the bottom navigation bar
         2. Select “Side effects of treatment”
         '''
     ],
 
-    "where can I find information about tuberculosis/TB treatment?": [
+    "where can I find useful information regarding tuberculosis?": [
         '''
         1. To find common treatment side effect, on the Home page, select “QnA” from the bottom navigation bar
         2. A list of topics to select which you may find helpful
         '''
     ],
 
-    "how do I switch on/off reminders to consume my medication?": [
-        '''
-        1. To switch on/off reminders, under the Home page, select “Profile” 
-        2. Select select/deselect the option to “Do you wish to turn on reminders for VDOTS treatment?”
-        '''
+    "who can I contact if I encounter a problem with the regarding app?": [
+        "You may call us at 03-79492389 during office hours or email us at tb@ummc.edu.my"
     ],
 
     "why is my urine orange in colour?": [
@@ -165,16 +190,16 @@ responses = {
     "how should I take the medications?": [
        '''
         1. Ensure an empty stomach an hour before taking medication
-        2. Do not eat anything an hour after taking the medication
-        3. For gastric patient, have breakfast and wait an hour before taking the medication.
-        4. Family members should supervise while patient take medication at home and need to record the video everyday in this application.
+        2. Do not eat anything 2 hours after taking the medication
+        3. If you have a gastric problem,  wait an hour before taking the medication after you have your breakfast.
+        4. Family membersAn identified treatment supporter by the DOTS clinic should supervise you while you are  taking medication at home and you need to record the video everyday in this application as evidence of you taking the medications.
        ''' 
     ],
 
     "how should about my day since discharged from hospital?": [
         '''
-        1. Pulmonary tuberculosis patients should wear a mask everyday for 2 weeks.  Mask should be changed everyday.
-        2. Have the windows and curtains opened for good ventilation
+        1. Pulmonary tuberculosis patients You should wear a mask everyday for the next 2 weeks to prevent the TB infection to others.  Masks should be changed regularly.
+        2. Make sure your house and room is well ventilated by opening up Have the windows and curtains. opened for good ventilation
         3. There is no need to separate the dishes
         4. Get enough rest and avoid crowded places
         '''
@@ -184,7 +209,7 @@ responses = {
         "Patients should be referred to eye clinic while taking Ethambutol medication.  This is to detect symptoms such as farsightedness, nearsightedness, and colour blindness."
     ],
 
-    "should my family members that I live with get screened for TB?": [
+    "should my family members that I live with any of my household close contact get screened for TB?": [
         "Yes.  Each family member who is staying within the same household or have been in contact with patient MUST do TB screening at Rawatan Utama Kesihatan Awam (RUKA) or nearest Klinik Kesihatan."
     ],
 
@@ -308,6 +333,108 @@ responses = {
 
     "sabak bernam": [
         "Hospital Tengku Ampuan Jemaah (HTAJ)"
+    ],
+
+    "where are the nearest hospital that provide xray service?": [
+        '''
+        Where do you mean nearest? Can you select the area that listed below and type the area name?
+        1. Selangor
+        2. Kuala Lumpur
+        3. Labuan
+        4. Putrajaya
+        '''
+    ],
+
+    "selangor": [
+        '''
+        Please choose the specific area by entering the name of the area that listed below:
+        1. Gombak area
+        2. Hulu Langat area
+        3. Hulu Selangor area
+        4. Kelang area
+        5. Kuala Selangor area
+        6. Petaling area
+        7. Sabak area
+        8. Sepang area
+        '''
+    ],
+
+    'gombak area': [
+        '''
+        1. Klinik Kesihatan Rawang (Functioning)
+        2. Klinik Kesihatan Sungai Buloh (Non functioning)
+        3. Klinik Kesihatan Taman Ehsan	(Functioning)
+        '''
+    ],
+
+    "hulu langat area": [
+        '''
+        1. Klinik Kesihatan Kajang (Non functioning)
+        2. Klinik Kesihatan Batu 9 (Non functioning)
+        3. Klinik Kesihatan Bandar Baru Bangi (Functioning)
+        4. Klinik Kesihatan Bandar Seri Putra (Functioning)
+        5. Klinik Kesihatan Sungai Chua	(Functioning)
+        6. klinik Bandar Tun Hussien Onn (Functioning)
+        '''
+    ],
+
+    "hulu selangor area": [
+        "Klinik Kesihatan Serendah (Functioning)"
+    ],
+
+    "kelang area": [
+        '''
+        1. Klinik Kesihatan Bukit Kuda (Functioning)
+        2. Klinik Kesihatan Pandamaran (Non functioning)
+        3. Klinik Kesihatan Pelabuhan Klang	(Functioning)
+        4. Klinik Kesihatan Bandar Botanik (Functioning)
+        '''
+    ],
+
+    "kuala selangor area": [
+        "Klinik Kesihatan Bestari Jaya (Functioning)"
+    ],
+
+    "petaling area": [
+        '''
+        1. Klinik Kesihatan Kelana Jaya	(Non functioning)
+        2. Klinik Kesihatan Seri Kembangan (Functioning)
+        3. Klinik Kesihatan Seksyen 7 Shah Alam	(Non functioning)
+        4. Klinik Kesihatan Medan Maju Jaya	(Functioning)
+        5. Klinik Kesihatan Seksyen 19 (Non functioning)
+        6. Klinik kesihatan Kota Damansara (Functioning)
+        '''
+    ],
+
+    "sabak area": [
+        "Kilinik Kesihatan Simpang Lima (Functioning)"
+    ],
+
+    "sepang area": [
+        '''
+        1. Klinik Kesihatan Salak (Non functioning)
+        2. Klinik Kesihatan Sungai Pelek (Non functioning)
+        '''
+    ],
+
+    "kuala lumpur": [
+        '''
+        1. Klinik Kesihatan Cheras (Functioning)
+        2. Klinik Kesihatan Jinjang	(Functioning)
+        3. Klinik Kesihatan Kuala Lumpur (Functioning)
+        4. Klinik Kesihatan Tanglin	(Non functioning)
+        '''
+    ],
+
+    "putrajaya": [
+        '''
+        1. Klinik Kesihatan Putrajaya Presint 9	(Functioning)
+        2. Klinik Kesihatan Putrajaya Presint 18 (Functioning)
+        '''
+    ],
+
+    "labuan": [
+        "Klinik Kesihatan WP Labuan	(Functioning)"
     ],
 
     "not understand": [

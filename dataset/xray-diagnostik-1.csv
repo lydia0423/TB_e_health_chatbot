@@ -1,0 +1,245 @@
+BIL,BILANGAN KLINIK MENGIKUT NEGERI,NEGERI,BANDAR,KLASIFIKASI,NAMA KLINIK,STATUS MODALITI,PEMPROSESAN FILEM ,PERKHIDMATAN YANG DITAWARKAN
+1,1,Johor,Batu Pahat,Bandar,Klinik Kesihatan Batu Pahat,Tidak Berfungsi,Konvensional,Radiografi Am
+2,2,Johor,Batu Pahat,Luar Bandar,Klinik Kesihatan Senggarang,Berfungsi,Konvensional,Radiografi Am
+3,3,Johor,Batu Pahat,Luar Bandar,Klinik Kesihatan Yong Peng,Berfungsi,CR,Radiografi Am
+4,4,Johor,Johor Bahru,Bandar,Klinik Kesihatan Kempas,Tidak Berfungsi,Konvensional,Radiografi Am
+5,5,Johor,Johor Bahru,Bandar,Klinik Kesihatan Larkin,Berfungsi,Konvensional,Radiografi Am
+6,6,Johor,Johor Bahru,Bandar,Klinik Kesihatan Pasir Gudang,Berfungsi,Konvensional,Radiografi Am
+7,7,Johor,Johor Bahru,Luar Bandar,Klinik Kesihatan Mahmoodiah,Berfungsi,CR,Radiografi Am
+8,8,Johor,Johor Bahru,Bandar,Klinik Kesihatan Tebrau,Tidak Berfungsi,Konvensional,Radiografi Am
+9,9,Johor,Johor Bahru,Luar Bandar,Klinik Kesihatan Taman Universiti,Berfungsi,Konvensional,Radiografi Am
+10,10,Johor,Johor Bahru,Bandar,Klinik Kesihatan Sultan Ismail,Berfungsi,Konvensional,Radiografi Am
+11,11,Johor,Kluang,Bandar,Klinik Kesihatan Mengkibol,Berfungsi,Konvensional,Radiografi Am
+12,12,Johor,Kluang,Bandar,Klinik Kesihatan Simpang Renggam,Berfungsi,Konvensional,Radiografi Am
+13,13,Johor,Kota Tinggi,Luar Bandar,Klinik Kesihatan Bandar Mas,Berfungsi,Konvensional,Radiografi Am
+14,14,Johor,Kota Tinggi,Luar Bandar,Klinik Kesihatan Bandar Penawar,Berfungsi,Konvensional,Radiografi Am
+15,15,Johor,Kota Tinggi,Luar Bandar,Klinik Kesihatan Bandar Tenggara,Berfungsi,CR,Radiografi Am
+16,16,Johor,Kota Tinggi,Luar Bandar,Klinik Kesihatan Sungai Rengit,Berfungsi,CR,Radiografi Am
+17,17,Johor,Kulai Jaya,Luar Bandar,Klinik Kesihatan Kulai Besar,Berfungsi,Konvensional,Radiografi Am
+18,18,Johor,Mersing,Luar Bandar,Klinik Kesihatan Endau,Berfungsi,Konvensional,Radiografi Am
+19,19,Johor,Muar,Luar Bandar,Klinik Kesihatan Bakri,Berfungsi,Konvensional,Radiografi Am
+20,20,Johor,Muar,Bandar,Klinik Kesihatan  Bandar Maharani,Berfungsi,Konvensional,Radiografi Am
+21,21,Johor,Pontian,Bandar,Klinik Kesihatan Pekan Nanas,Berfungsi,CR,Radiografi Am
+22,22,Johor,Pontian,Bandar,Klinik Kesihatan Pontian,Berfungsi,Konvensional,Radiografi Am
+23,23,Johor,Segamat,Bandar,Klinik Kesihatan Bandar Putra,Berfungsi,Konvensional,Radiografi Am
+24,24,Johor,Segamat,Bandar,Klinik Kesihatan Labis,Berfungsi,Konvensional,Radiografi Am
+25,25,Johor,Segamat,Bandar,Klinik Kesihatan Segamat,Berfungsi,CR,Radiografi Am
+26,1,Kedah,Bandar Baharu,Luar Bandar,Klinik Kesihatan Serdang,Berfungsi,Konvensional,Radiografi Am
+27,2,Kedah,Kota Setar,Bandar,Klinik Kesihatan Bandar Alor Setar,Berfungsi,CR,Radiografi Am
+28,3,Kedah,Kota Setar,Bandar,Klinik Kesihatan Jalan Putra,Berfungsi,Konvensional,Radiografi Am
+29,4,Kedah,Kota Setar,Bandar,Klinik Kesihatan Pokok Sena,Berfungsi,CR,Radiografi Am
+30,5,Kedah,Kota Setar,Bandar,Klinik Kesihatan Simpang Kuala,Berfungsi,Konvensional,Radiografi Am
+31,6,Kedah,Kota Setar,Bandar,Klinik Kesihatan Dato' Kumbar,Berfungsi,Konvensional,Radiografi Am
+32,7,Kedah,Kuala Muda,Bandar,Klinik Kesihatan Bakar Arang,Berfungsi,CR,Radiografi Am
+33,8,Kedah,Kuala Muda,Bandar,Klinik Kesihatan Bandar Sg. Petani,Berfungsi,Konvensional,Radiografi Am
+34,9,Kedah,Kubang Pasu,Bandar,Klinik Kesihatan Changloon,Berfungsi,Konvensional,Radiografi Am
+35,10,Kedah,Kubang Pasu,Bandar,Klinik Kesihatan Tunjang,Berfungsi,Konvensional,Radiografi Am
+36,11,Kedah,Kulim,Bandar,Klinik Kesihatan Kulim,Berfungsi,Konvensional,Radiografi Am
+37,12,Kedah,Kulim,Bandar,Klinik Kesihatan Padang Serai,Berfungsi,Konvensional,Radiografi Am
+38,13,Kedah,Langkawi,Bandar,Klinik Kesihatan Air Hangat,Berfungsi,Konvensional,Radiografi Am
+39,14,Kedah,Langkawi,Bandar,Klinik Kesihatan Kuah,Berfungsi,Konvensional,Radiografi Am
+40,15,Kedah,Langkawi,Bandar,Klinik Kesihatan Padang Matsirat,Berfungsi,Konvensional,Radiografi Am
+41,16,Kedah,Padang Terap,Luar Bandar,Klinik Kesihatan Naka,Berfungsi,Konvensional,Radiografi Am
+42,17,Kedah,Pendang,Bandar,Klinik Kesihatan Pendang,Berfungsi,Konvensional,Radiografi Am
+43,1,Kelantan,Bachok,Luar Bandar,Klinik Kesihatan Bachok,Berfungsi,CR,Radiografi Am
+44,2,Kelantan,Bachok,Luar Bandar,Klinik Kesihatan Mahligai,Berfungsi,Konvensional,Radiografi Am
+45,3,Kelantan,Gua Musang,Bandar,Klinik Kesihatan Gua Musang,Berfungsi,Konvensional,Radiografi Am
+46,4,Kelantan,Gua Musang,Luar Bandar,Klinik Kesihatan Chiku 3,Berfungsi,CR,Radiografi Am
+47,5,Kelantan,Jeli,Luar Bandar,Klinik Kesihatan Jeli,Berfungsi,CR,Radiografi Am
+48,6,Kelantan,Kota Bharu,Bandar,Klinik Kesihatan Bandar,Berfungsi,CR,Radiografi Am
+49,7,Kelantan,Kota Bharu,Luar Bandar,Klinik Kesihatan Ketereh,Berfungsi,CR,Radiografi Am
+50,8,Kelantan,Kota Bharu,Luar Bandar,Klinik Kesihatan Pengkalan Chepa,Berfungsi,CR,Radiografi Am
+51,9,Kelantan,Kuala Krai,Luar Bandar,Klinik Kesihatan Bandar,Berfungsi,Konvensional,Radiografi Am
+52,10,Kelantan,Kuala Krai,Luar Bandar,Klinik Kesihatan Manik Urai,Berfungsi,CR,Radiografi Am
+53,11,Kelantan,Machang,Luar Bandar,Klinik Kesihatan Pulai Chondong,Berfungsi,CR,Radiografi Am
+54,12,Kelantan,Pasir Mas,Bandar,Klinik Kesihatan Bandar,Berfungsi,CR,Radiografi Am
+55,13,Kelantan,Pasir Mas,Luar Bandar,Klinik Kesihatan Meranti,Berfungsi,CR,Radiografi Am
+56,14,Kelantan,Tumpat,Bandar,Klinik Kesihatan Bandar,Berfungsi,Konvensional,Radiografi Am
+57,15,Kelantan,Tumpat,Luar Bandar,Klinik Kesihatan Wakaf Bharu,Tidak Berfungsi,Konvensional,Radiografi Am
+58,16,Kelantan,Tumpat,Luar Bandar,Klinik 1 Malaysia (K1M)/KK Pasir Pekan,Berfungsi,CR,Radiografi Am
+59,1,Melaka,Alor Gajah,Luar Bandar,Klinik Kesihatan Durian Tunggal,Berfungsi,CR,Radiografi Am
+60,2,Melaka,Alor Gajah,Luar Bandar,Klinik Kesihatan Kuala Sungai Baru,Berfungsi,Konvensional,Radiografi Am
+61,3,Melaka,Alor Gajah,Luar Bandar,Klinik Kesihatan Masjid Tanah,Berfungsi,Konvensional,Radiografi Am
+62,4,Melaka,Jasin,Bandar,Klinik Kesihatan Merlimau,Berfungsi,Konvensional,Radiografi Am
+63,5,Melaka,Jasin,Bandar,Klinik Kesihatan Selandar,Berfungsi,Konvensional,Radiografi Am
+64,6,Melaka,Jasin,Bandar,Klinik Kesihatan Umbai,Berfungsi,Konvensional,Radiografi Am
+65,7,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Ayer Keroh,Berfungsi,Konvensional,Radiografi Am
+66,8,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Ayer Molek,Berfungsi,CR,Radiografi Am
+67,9,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Peringgit,Berfungsi,Konvensional,Radiografi Am
+68,10,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Tanjung Kling,Berfungsi,Konvensional,Radiografi Am
+69,11,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Tengkera,Berfungsi,Konvensional,Radiografi Am
+70,12,Melaka,Melaka Tengah,Bandar,Klinik Kesihatan Ujong Pasir,Berfungsi,Konvensional,Radiografi Am
+71,1,"Negeri  
+Sembilan",Jelebu,Luar Bandar,Klinik Kesihatan Jelebu,Tidak Berfungsi,CR,Radiografi Am
+72,2,"Negeri 
+Sembilan",Jelebu,Luar Bandar,Klinik Kesihatan Simpang Durian,Tidak Berfungsi,Konvensional,Radiografi Am
+73,3,"Negeri 
+Sembilan",Jempol,Luar Bandar,Klinik Kesihatan Bahau,Berfungsi,Konvensional,Radiografi Am
+74,4,"Negeri
+Sembilan",Jempol,Luar Bandar,Klinik Kesihatan Bandar Seri Jempol,Berfungsi,Konvensional,Radiografi Am
+75,5,"Negeri
+Sembilan",Kuala Pilah,Luar Bandar,Klinik Kesihatan Johol,Berfungsi,Konvensional,Radiografi Am
+76,6,"Negeri 
+Sembilan",Kuala Pilah,Luar Bandar,Klinik Kesihatan Kuala Pilah,Berfungsi,CR,Radiografi Am
+77,7,"Negeri
+Sembilan",Port Dickson,Bandar,Klinik Kesihatan Port Dickson,Tidak Berfungsi,Konvensional,Radiografi Am
+78,8,"Negeri
+Sembilan",Port Dickson,Bandar,Klinik kesihatan Lukut,Berfungsi,Konvensional,Radiografi Am
+79,9,"Negeri
+Sembilan",Rembau,Luar Bandar,Klinik Kesihatan Rembau,Berfungsi,CR,Radiografi Am
+80,10,"Negeri
+Sembilan",Seremban,Bandar,Klinik Kesihatan Ampangan,Berfungsi,CR,Radiografi Am
+81,11,"Negeri
+Sembilan",Seremban,Bandar,Klinik Kesihatan Seremban,Berfungsi,CR,Radiografi Am
+82,12,"Negeri
+Sembilan",Seremban,Bandar,Klinik Kesihatan Sikamat,Berfungsi,Konvensional,Radiografi Am
+83,13,"Negeri
+Sembilan",Seremban,Bandar,Klinik Kesihatan Senawang,Berfungsi,CR,Radiografi Am
+84,14,"Negeri
+Sembilan",Seremban,Bandar,Klinik Kesihatan Seremban 2,Berfungsi,CR,Radiografi Am
+85,15,"Negeri
+Sembilan",Tampin,Bandar,Klinik Kesihatan Gemas,Tidak Berfungsi,Konvensional,Radiografi Am
+86,16,"Negeri
+Sembilan",Tampin,Luar Bandar,Klinik Kesihatan Gemencheh,Berfungsi,CR,Radiografi Am
+87,1,Pahang,Bentong,Bandar,Klinik Kesihatan Karak,Berfungsi,Konvensional,Radiografi Am
+88,2,Pahang,Bentong,Bandar,Klinik Kesihatan Simpang Pelangai,Berfungsi,Konvensional,Radiografi Am
+89,3,Pahang,Bera,Luar Bandar,Klinik Kesihatan Purun,Berfungsi,Konvensional,Radiografi Am
+90,4,Pahang,Jerantut,Bandar,Klinik Kesihatan Bandar Jerantut            ,Berfungsi,Konvensional,Radiografi Am
+91,5,Pahang,Kuantan,Bandar,Klinik Kesihatan Indera Mahkota,Berfungsi,Konvensional,Radiografi Am
+92,6,Pahang,Kuantan,Bandar,Klinik Kesihatan Bandar Kuantan,Berfungsi,Konvensional,Radiografi Am
+93,7,Pahang,Kuantan,Bandar,Klinik Kesihatan Beserah,Berfungsi,Konvensional,Radiografi Am
+94,8,Pahang,Kuantan,Bandar,Klinik Kesihatan Kurnia,Berfungsi,Konvensional,Radiografi Am
+95,9,Pahang,Kuantan,Bandar,Klinik Kesihatan Paya Besar,Berfungsi,Konvensional,Radiografi Am
+96,10,Pahang,Lipis,Bandar,Klinik Kesihatan Sungai Koyan,Berfungsi,Konvensional,Radiografi Am
+97,11,Pahang,Maran,Bandar,Klinik Kesihatan Bandar Jengka,Berfungsi,Konvensional,Radiografi Am
+98,12,Pahang,Maran,Luar Bandar,Klinik Kesihatan Jengka 22,Berfungsi,Konvensional,Radiografi Am
+99,13,Pahang,Maran,Luar Bandar,Klinik Kesihatan Maran,Berfungsi,CR,Radiografi Am
+100,14,Pahang,Maran,Luar Bandar,Klinik Kesihatan Pekan Tajau,Berfungsi,Konvensional,Radiografi Am
+101,15,Pahang,Pekan,Bandar,Klinik Kesihatan Bandar Pekan,Berfungsi,CR,Radiografi Am
+102,16,Pahang,Temerloh,Bandar,Klinik Kesihatan Bandar Mentakab,Berfungsi,Konvensional,Radiografi Am
+103,17,Pahang,Temerloh,Bandar,Klinik Kesihatan Tanjung Lalang (Simpang Songsang) ,Tidak Berfungsi,Konvensional,Radiografi Am
+104,1,Perak,Batang Padang,Bandar,Klinik Kesihatan Tanjung Malim,Berfungsi,Konvensional,Radiografi Am
+105,2,Perak,Batang Padang,Bandar,Klinik Kesihatan Tapah,Berfungsi,Konvensional,Radiografi Am
+106,3,Perak,Hilir Perak,Bandar,Klinik Kesihatan Telok Intan,Berfungsi,Konvensional,Radiografi Am
+107,4,Perak,Hulu Perak,Bandar,Klinik Kesihatan Lenggong,Berfungsi,Konvensional,Radiografi Am
+108,5,Perak,Hulu Perak,Bandar,Klinik Kesihatan Pengkalan Hulu,Berfungsi,Konvensional,Radiografi Am
+109,6,Perak,Kampar,Bandar,Klinik Kesihatan Kampar,Berfungsi,Konvensional,Radiografi Am
+110,7,Perak,Kerian,Bandar,Klinik Kesihatan Bagan Serai,Berfungsi,CR,Radiografi Am
+111,8,Perak,Kerian,Bandar,Klinik Kesihatan Kuala Kurau,Berfungsi,Konvensional,Radiografi Am
+112,9,Perak,Kinta,Bandar,Klinik Kesihatan Greentown,Berfungsi,Konvensional,Radiografi Am
+113,10,Perak,Kinta,Bandar,Klinik Kesihatan Gunung Rapat,Berfungsi,Konvensional,Radiografi Am
+114,11,Perak,Kinta,Bandar,Klinik Kesihatan Jelapang,Berfungsi,Konvensional,Radiografi Am
+115,12,Perak,Kinta,Bandar,Klinik Kesihatan Kampung Simee,Berfungsi,Konvensional,Radiografi Am
+116,13,Perak,Kinta,Bandar,Klinik Kesihatan Tronoh,Tidak Berfungsi,Konvensional,Radiografi Am
+117,14,Perak,Kinta,Bandar,Klinik Kesihatan Buntung,Berfungsi,Konvensional,Radiografi Am
+118,15,Perak,Kuala Kangsar,Bandar,Klinik Kesihatan Padang Rengas,Berfungsi,CR,Radiografi Am
+119,16,Perak,"Larut,  Matang & Selama",Luar Bandar,Klinik Kesihatan Kamunting,Berfungsi,Konvensional,Radiografi Am
+120,17,Perak,"Larut,  Matang & Selama",Luar Bandar,Klinik Kesihatan Pokok Assam,Berfungsi,CR,Radiografi Am
+121,18,Perak,"Larut,  Matang & Selama",Bandar,Klinik Kesihatan Simpang,Berfungsi,CR,Radiografi Am
+122,19,Perak,"Larut,  Matang & Selama",Bandar,Klinik Kesihatan Taiping,Berfungsi,Konvensional,Radiografi Am
+123,20,Perak,"Larut,  Matang & Selama",Bandar,Klinik Kesihatan Changkat Jering,Berfungsi,Konvensional,Radiografi Am
+124,21,Perak,Manjung,Bandar,Klinik Kesihatan Bruas,Tidak Berfungsi,Konvensional,Radiografi Am
+125,22,Perak,Manjung,Bandar,Klinik Kesihatan Pulau Pangkor,Tidak Berfungsi,Konvensional,Radiografi Am
+126,23,Perak,Manjung,Bandar,Klinik Kesihatan Pantai Remis,Berfungsi,Konvensional,Radiografi Am
+127,24,Perak,Manjung,Bandar,Klinik Kesihatan Sitiawan,Tidak Berfungsi,Konvensional,Radiografi Am
+128,1,Perlis,Kangar,Bandar,Klinik Kesihatan Kangar,Berfungsi,CR,Radiografi Am
+129,1,Pulau  Pinang,Barat Daya,Bandar,Klinik Kesihatan Bayan Baru,Berfungsi,Konvensional,Radiografi Am
+130,2,Pulau  Pinang,Seberang Perai Tengah,Bandar,Klinik Kesihatan Bukit Minyak,Berfungsi,Konvensional,Radiografi Am
+131,3,Pulau  Pinang,Seberang Perai Tengah,Bandar,Klinik Kesihatan Seberang Jaya,Berfungsi,Konvensional,Radiografi Am
+132,4,Pulau  Pinang,Seberang Perai Utara,Bandar,Klinik Kesihatan Butterworth,Berfungsi,Konvensional,Radiografi Am
+133,5,Pulau  Pinang,Seberang Perai Utara,Bandar,Klinik Kesihatan Kepala Batas,Berfungsi,Konvensional,Radiografi Am
+134,6,Pulau  Pinang,Seberang Perai Utara,Luar Bandar,Klinik Kesihatan Penaga,Berfungsi,Konvensional,Radiografi Am
+135,7,Pulau  Pinang,Seberang Perai Utara,Bandar,Klinik Kesihatan Sungai Dua,Tidak Berfungsi,Konvensional,Radiografi Am
+136,8,Pulau  Pinang,"Seberang Perai Utara
+",Luar Bandar,Klinik Kesihatan Tasek Gelugor,Berfungsi,Konvensional,Radiografi Am
+137,9,Pulau  Pinang,Timur Laut,Bandar,Klinik Kesihatan Jalan Perak,Tidak Berfungsi,Konvensional,Radiografi Am
+138,10,Pulau  Pinang,Timur Laut,Bandar,Klinik Kesihatan Sungai Dua,Berfungsi,Konvensional,Radiografi Am
+139,11,Pulau  Pinang,Timur Laut,Bandar,Klinik Kesihatan Bandar Baru Air Itam,Berfungsi,Konvensional,Radiografi Am
+140,1,Sabah,Beluran,Luar Bandar,Klinik Kesihatan Telupid,Berfungsi,CR,Radiografi Am
+141,2,Sabah,"Kota Kinabalu
+",Bandar,Klinik Kesihatan Luyang,Berfungsi,Konvensional,Radiografi Am
+142,3,Sabah,"Kota Marudu
+",Luar Bandar,Klinik Kesihatan Tandek,Berfungsi,CR,Radiografi Am
+143,4,Sabah,Lahad Datu,Bandar,Klinik Kesihatan Lahad Datu,Berfungsi,Konvensional,Radiografi Am
+144,5,Sabah,Nabawan,Luar Bandar,Klinik Kesihatan Nabawan,Berfungsi,Konvensional,Radiografi Am
+145,6,Sabah,Penampang,Bandar,Klinik Kesihatan Putatan,Berfungsi,Konvensional,Radiografi Am
+146,7,Sabah,Sandakan,Bandar,Klinik Kesihatan Sandakan,Berfungsi,CR,Radiografi Am
+147,8,Sabah,Semporna,Bandar,Klinik Kesihatan Semporna,Tidak Berfungsi,Konvensional,Radiografi Am
+148,9,Sabah,Tawau,Bandar,Klinik Kesihatan Tawau (KD NT),Berfungsi,Konvensional,Radiografi Am
+149,1,Sarawak,Belaga,Luar Bandar,Klinik Kesihatan Belaga,Berfungsi,Konvensional,Radiografi Am
+150,2,Sarawak,Belaga,Luar Bandar,Klinik Kesihatan Sungai Asap,Berfungsi,Konvensional,Radiografi Am
+151,3,Sarawak,Betong,Luar Bandar,Klinik Kesihatan Debak,Berfungsi,Konvensional,Radiografi Am
+152,4,Sarawak,Bintulu,Bandar,Klinik Kesihatan Bintulu,Berfungsi,Konvensional,Radiografi Am
+153,5,Sarawak,Kapit,Bandar,Klinik Kesihatan Kapit,Berfungsi,Konvensional,Radiografi Am
+154,6,Sarawak,Kuching,Bandar,Klinik Kesihatan Batu Kawa,Berfungsi,Konvensional,Radiografi Am
+155,7,Sarawak,Kuching,Bandar,Klinik Kesihatan Kota Sentosa,Berfungsi,Konvensional,Radiografi Am
+156,8,Sarawak,Kuching,Bandar,Klinik Kesihatan Jalan Masjid,Berfungsi,Konvensional,Radiografi Am
+157,9,Sarawak,Kuching,Bandar,Klinik Kesihatan Tanah Puteh,Berfungsi,Konvensional,Radiografi Am
+158,10,Sarawak,Kuching,Bandar,Klinik Kesihatan Petra Jaya,Berfungsi,Konvensional,Radiografi Am
+159,11,Sarawak,Lundu,Luar Bandar,Klinik Kesihatan Sematan,Berfungsi,Konvensional,Radiografi Am
+160,12,Sarawak,Marudi,Luar Bandar,Klinik Kesihatan Long Lama,Berfungsi,CR,Radiografi Am
+161,13,Sarawak,Meradong,Luar Bandar,Klinik Kesihatan Bintangor,Berfungsi,Konvensional,Radiografi Am
+162,14,Sarawak,Miri,Bandar,Klinik Kesihatan Bandar Miri,Berfungsi,CR,Radiografi Am
+163,15,Sarawak,Miri,Bandar,Klinik Kesihatan Tudan,Berfungsi,Konvensional,Radiografi Am
+164,16,Sarawak,Samarahan,Bandar,Klinik Kesihatan Kota Samarahan,Berfungsi,Konvensional,Radiografi Am
+165,17,Sarawak,Sarikei,Bandar,Klinik Kesihatan Sarikei,Berfungsi,Konvensional,Radiografi Am
+166,18,Sarawak,Sibu,Bandar,Klinik Kesihatan Jalan Lanang,Berfungsi,Konvensional,Radiografi Am
+167,19,Sarawak,Sibu,Bandar,Klinik Kesihatan Jalan Oya,Berfungsi,Konvensional,Radiografi Am
+168,20,Sarawak,Sibu,Luar Bandar,Klinik Kesihatan Sibu Jaya (Operasi Jul 2016),Berfungsi,Konvensional,Radiografi Am
+169,21,Sarawak,Song,Luar Bandar,Klinik Kesihatan Song,Berfungsi,Konvensional,Radiografi Am
+170,22,Sarawak,Sri Aman,Bandar,Klinik Kesihatan Sri Aman,Berfungsi,Konvensional,Radiografi Am
+171,23,Sarawak,Tatau,Luar Bandar,Klinik Kesihatan Tatau,Berfungsi,Konvensional,Radiografi Am
+172,1,Selangor,Gombak,Bandar,Klinik Kesihatan Rawang,Berfungsi,Konvensional,Radiografi Am
+173,2,Selangor,Gombak,Bandar,Klinik Kesihatan Sungai Buloh,Tidak Berfungsi,Konvensional,Radiografi Am
+174,3,Selangor,Gombak,Bandar,Klinik Kesihatan Taman Ehsan,Berfungsi,Konvensional,Radiografi Am
+175,4,Selangor,Hulu Langat,Bandar,Klinik Kesihatan Kajang,Tidak Berfungsi,Konvensional,Radiografi Am
+176,5,Selangor,Hulu Langat,Bandar,Klinik Kesihatan Batu 9,Tidak Berfungsi,Konvensional,Radiografi Am
+177,6,Selangor,Hulu Langat,Bandar,Klinik Kesihatan Bandar Baru Bangi,Berfungsi,Konvensional,Radiografi Am
+178,7,Selangor,Hulu Langat,Bandar,Klinik Kesihatan Bandar Seri Putra,Berfungsi,Konvensional,Radiografi Am
+179,8,Selangor,Hulu Langat,Bandar,Klinik Kesihatan Sungai Chua,Berfungsi,Konvensional,Radiografi Am
+180,9,Selangor,Hulu Langat,Bandar,klinik Bandar Tun Hussien Onn,Berfungsi,CR,Radiografi Am
+181,10,Selangor,Hulu Selangor,Bandar,Klinik Kesihatan Serendah,Berfungsi,CR,Radiografi Am
+182,11,Selangor,Kelang,Bandar,Klinik Kesihatan Bukit Kuda,Berfungsi,Konvensional,Radiografi Am
+183,12,Selangor,Kelang,Bandar,Klinik Kesihatan Pandamaran,Tidak Berfungsi,Konvensional,Radiografi Am
+184,13,Selangor,Kelang,Bandar,Klinik Kesihatan Pelabuhan Klang,Berfungsi,Konvensional,Radiografi Am
+185,14,Selangor,Kelang,Bandar,Klinik Kesihatan Bandar Botanik,Berfungsi,Konvensional,Radiografi Am
+186,15,Selangor,Kuala Selangor,Bandar,Klinik Kesihatan Bestari Jaya,Berfungsi,Konvensional,Radiografi Am
+187,16,Selangor,Petaling,Bandar,Klinik Kesihatan Kelana Jaya,Tidak Berfungsi,Konvensional,Radiografi Am
+188,17,Selangor,Petaling,Bandar,Klinik Kesihatan Seri Kembangan,Berfungsi,Konvensional,Radiografi Am
+189,18,Selangor,Petaling,Bandar,Klinik Kesihatan Seksyen 7 Shah Alam,Tidak Berfungsi,Konvensional,Radiografi Am
+190,19,Selangor,Petaling,Luar Bandar,Klinik Kesihatan Medan Maju Jaya,Berfungsi,Konvensional,Radiografi Am
+191,20,Selangor,Petaling,Bandar,Klinik Kesihatan Seksyen 19,Tidak Berfungsi,Konvensional,Radiografi Am
+192,21,Selangor,Petaling,Bandar,Klinik kesihatan Kota Damansara,Berfungsi,CR,Radiografi Am
+193,22,Selangor,"Sabak Bernam
+",Luar Bandar,Kilinik Kesihatan Simpang Lima (Beroperasi Jun 2016),Berfungsi,Konvensional,Radiografi Am
+194,23,Selangor,Sepang,Bandar,Klinik Kesihatan Salak,Tidak Berfungsi,Konvensional,Radiografi Am
+195,24,Selangor,Sepang,Bandar,Klinik Kesihatan Sungai Pelek,Tidak Berfungsi,Konvensional,Radiografi Am
+196,1,Terengganu,Besut,Bandar,Klinik Kesihatan Padang Luas,Berfungsi,Konvensional,Radiografi Am
+197,2,Terengganu,Dungun,Bandar,Klinik Kesihatan Ketengah Jaya,Berfungsi,CR,Radiografi Am
+198,3,Terengganu,Dungun,Bandar,Klinik Kesihatan Kuala Dungun,Berfungsi,CR,Radiografi Am
+199,4,Terengganu,Hulu Terengganu,Bandar,Klinik Kesihatan Kuala Berang,Berfungsi,CR,Radiografi Am
+200,5,Terengganu,Kemaman,Luar Bandar,Klinik Kesihatan Sri Bandi,Berfungsi,CR,Radiografi Am
+201,6,Terengganu,Kemaman,Bandar,Klinik Kesihatan Batu 2 1/2,Berfungsi,Konvensional,Radiografi Am
+202,7,Terengganu,"Kuala Terengganu
+",Bandar,Klinik Kesihatan Hiliran,Berfungsi,CR,Radiografi Am
+203,8,Terengganu,Marang,Bandar,Klinik Kesihatan Bukit Payong,Berfungsi,CR,Radiografi Am
+204,9,Terengganu,Marang,Luar Bandar,Klinik Kesihatan Merchang,Berfungsi,CR,Radiografi Am
+205,10,Terengganu,Setiu,Luar Bandar,Klinik Kesihatan Permaisuri,Berfungsi,CR,Radiografi Am
+206,11,Terengganu,Setiu,Luar Bandar,Klinik Kesihatan Kampung Rahmat,Berfungsi,CR,Radiografi Am
+207,1,"WP Kuala
+Lumpur","Kuala
+Lumpur",Bandar,Klinik Kesihatan Cheras,Berfungsi,CR,Radiografi Am
+208,2,"WP Kuala
+Lumpur","Kuala
+Lumpur",Bandar,Klinik Kesihatan Jinjang,Berfungsi,Konvensional,Radiografi Am
+209,3,"WP Kuala
+Lumpur","Kuala
+Lumpur",Bandar,Klinik Kesihatan Kuala Lumpur,Berfungsi,CR,Radiografi Am
+210,4,"WP Kuala
+Lumpur","Kuala
+Lumpur",Bandar,Klinik Kesihatan Tanglin,Tidak Berfungsi,Konvensional,Radiografi Am
+211,1,WP Putrajaya,Putrajaya,Bandar,Klinik Kesihatan Putrajaya Presint 9,Berfungsi,CR,Radiografi Am
+212,2,WP Putrajaya,Putrajaya,Bandar,Klinik Kesihatan Putrajaya Presint 18,Berfungsi,CR,Radiografi Am
+213,1,WP Labuan,Labuan,Bandar,Klinik Kesihatan WP Labuan,Berfungsi,Konvensional,Radiografi Am
+,,,,,,,,
+CR - COMPUTER RADIOGRAFI,,,,,,,,
