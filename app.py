@@ -10,7 +10,7 @@ def response():
 
     ques = related(query)
 
-    if ques in responses:
+    if ques.str.lower() in responses:
         res = random.choice(responses[ques])
     else:
         res = random.choice(responses[ques == 'not understand'])
@@ -50,7 +50,7 @@ def related(x_text):
         y_text = "should my family members that I live with any of my household close contact get screened for TB?"
     elif "default" in x_text: 
         y_text = "this is a default message"
-    elif "test" in x_text:
+    elif "tb test" in x_text:
         y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
         y_text = "what should I bring for tb test?"
@@ -250,7 +250,7 @@ responses = {
 
     "where are the nearest hospital?" : [
         '''
-        Where do you mean nearest? Can you select the area that listed below and type the area name?
+        Where do you mean nearest? Can you select the area that listed below? (type the area name, i.e gombak)
         1. Gombak
         2. Hulu Langat
         3. Hulu Selangor
@@ -337,7 +337,7 @@ responses = {
 
     "where are the nearest hospital that provide xray service?": [
         '''
-        Where do you mean nearest? Can you select the area that listed below and type the area name?
+        Where do you mean nearest? Can you select the area that listed below? (type the area name, i.e gombak)
         1. Selangor
         2. Kuala Lumpur
         3. Labuan
