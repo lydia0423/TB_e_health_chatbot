@@ -43,7 +43,7 @@ def related(x_text):
     elif "how to take" in x_text: 
         y_text = "how should I take the medications?"
     elif "discharged" in x_text: 
-        y_text = "how should about my day since discharged from hospital?"
+        y_text = "how should I get about my day after being discharged from hospital?"
     elif "eye clinic" in x_text: 
         y_text = "referral to eye clinic"
     elif "household" in x_text: 
@@ -53,9 +53,9 @@ def related(x_text):
     elif "tb test" in x_text:
         y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
-        y_text = "what should I bring for tb test?"
-    elif "nearest hospital" in x_text:
-        y_text = "where are the nearest hospital?"
+        y_text = "what should I bring for tb testing?"
+    elif "nearest hospitals" in x_text:
+        y_text = "where are the nearest hospitals?"
     elif "gombak" in x_text:
         y_text = "gombak"
     elif "hulu langat" in x_text:
@@ -72,8 +72,8 @@ def related(x_text):
         y_text = "petaling"
     elif "sabak bernam" in x_text:
         y_text = "sabak bernam"
-    elif "xray" in x_text:
-        y_text = "where are the nearest hospital that provide xray service?"
+    elif "x-ray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "selangor" in x_text:
         y_text = "selangor"
     elif "gombak area" in x_text:
@@ -137,7 +137,7 @@ responses = {
 
     "how do I upload videos?": [
         '''
-        1. Select DOTS Therapy
+        1. Select VDOTS Therapy
         2. Select Video, record yourself
         3. Select Upload
         4. You will receive a confirmation message
@@ -145,7 +145,7 @@ responses = {
     ],
 
     "how can I check my track record of uploading the videos?": [
-        "Please check My DOTS Therapy progress in your user profile"
+        "Please check My VDOTS Therapy progress in your user profile"
     ],
 
     "how do I order medications?": [
@@ -191,26 +191,26 @@ responses = {
        '''
         1. Ensure an empty stomach an hour before taking medication
         2. Do not eat anything 2 hours after taking the medication
-        3. If you have a gastric problem,  wait an hour before taking the medication after you have your breakfast.
-        4. Family membersAn identified treatment supporter by the DOTS clinic should supervise you while you are  taking medication at home and you need to record the video everyday in this application as evidence of you taking the medications.
+        3. If you have a gastric problem, wait an hour before taking the medication after you have your breakfast.
+        4. An identified treatment supporter by the VDOTS clinic should supervise you while you are  taking medication at home and you need to record the video everyday in this application as evidence of you taking the medications.
        ''' 
     ],
 
-    "how should about my day since discharged from hospital?": [
+    "how should I get about my day after being discharged from hospital?": [
         '''
-        1. Pulmonary tuberculosis patients You should wear a mask everyday for the next 2 weeks to prevent the TB infection to others.  Masks should be changed regularly.
-        2. Make sure your house and room is well ventilated by opening up Have the windows and curtains. opened for good ventilation
+        1. You should wear a mask everyday for the next 2 weeks to prevent the TB infection to others.  Masks should be changed regularly.
+        2. Make sure your house and room is well ventilated by opening up
         3. There is no need to separate the dishes
         4. Get enough rest and avoid crowded places
         '''
     ],
 
     "referral to eye clinic": [
-        "Patients should be referred to eye clinic while taking Ethambutol medication.  This is to detect symptoms such as farsightedness, nearsightedness, and colour blindness."
+        "You will receive a referral letter to the eye clinic to monitor your vision while taking the TB medications. Please ask for the referral letter from the DOTS clinic if you have not received it yet."
     ],
 
     "should my family members that I live with any of my household close contact get screened for TB?": [
-        "Yes.  Each family member who is staying within the same household or have been in contact with patient MUST do TB screening at Rawatan Utama Kesihatan Awam (RUKA) or nearest Klinik Kesihatan."
+        "Yes.  Anyone who is staying within the same household or has been in contact with the TB patient you MUST be screened for possible TB infection at our Rawatan Utama Kesihatan Awam (RUKA) or nearest Klinik Kesihatan."
     ],
 
     "where can I go for a tb test?": [
@@ -238,7 +238,7 @@ responses = {
         '''
     ],
 
-    "what should I bring for tb test?": [
+    "what should I bring for tb testing?": [
         '''
         You need to bring with you:
 
@@ -248,17 +248,17 @@ responses = {
         '''
     ],
 
-    "where are the nearest hospital?" : [
+    "where are the nearest hospitals?" : [
         '''
-        Where do you mean nearest? Can you select the area that listed below? (type the area name, i.e gombak)
-        1. Gombak
-        2. Hulu Langat
-        3. Hulu Selangor
-        4. Klang 
-        5. Kuala Langat 
-        6. Kuala Selangor
-        7. Petaling
-        8. Sabak Bernam
+        Where are the nearest hospitals? Type the area name listed below, i.e gombak
+        1. gombak
+        2. hulu Langat
+        3. hulu Selangor
+        4. klang 
+        5. kuala langat 
+        6. kuala selangor
+        7. petaling
+        8. sabak bernam
         '''
     ],
 
@@ -335,27 +335,27 @@ responses = {
         "Hospital Tengku Ampuan Jemaah (HTAJ)"
     ],
 
-    "where are the nearest hospital that provide xray service?": [
+    "where are the nearest hospitals that provide x-ray service?": [
         '''
-        Where do you mean nearest? Can you select the area that listed below? (type the area name, i.e gombak)
-        1. Selangor
-        2. Kuala Lumpur
-        3. Labuan
-        4. Putrajaya
+        Where are the nearest hospitals? Type the area name listed below, i.e gombak
+        1. selangor
+        2. kuala lumpur
+        3. labuan
+        4. putrajaya
         '''
     ],
 
     "selangor": [
         '''
-        Please choose the specific area by entering the name of the area that listed below:
-        1. Gombak area
-        2. Hulu Langat area
-        3. Hulu Selangor area
-        4. Kelang area
-        5. Kuala Selangor area
-        6. Petaling area
-        7. Sabak area
-        8. Sepang area
+        Type the area name listed below (i.e gombak area):
+        1. gombak area
+        2. hulu langat area
+        3. hulu Selangor area
+        4. kelang area
+        5. kuala selangor area
+        6. petaling area
+        7. sabak area
+        8. sepang area
         '''
     ],
 
