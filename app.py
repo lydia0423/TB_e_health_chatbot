@@ -50,7 +50,7 @@ def related(x_text):
         y_text = "should my family members that I live with any of my household close contact get screened for TB?"
     elif "default" in x_text: 
         y_text = "this is a default message"
-    elif "tb test" in x_text:
+    elif "test" in x_text:
         y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
         y_text = "what should I bring for tb testing?"
