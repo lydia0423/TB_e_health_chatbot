@@ -24,7 +24,13 @@ def related(x_text):
         y_text = "are you a robot?"
     elif "how are" in x_text: 
         y_text = "how are you?"
+    elif "hi" in x_text: 
+        y_text = "how are you?"
+    elif "hello" in x_text: 
+        y_text = "how are you?"
     elif "video" in x_text: 
+        y_text = "how do I upload videos?"
+    elif "videos" in x_text: 
         y_text = "how do I upload videos?"
     elif "track record" in x_text:
         y_text = "how can I check my track record of uploading the videos?"
@@ -52,11 +58,21 @@ def related(x_text):
         y_text = "this is a default message"
     elif "test" in x_text:
         y_text = "where can I go for a tb test?"
+    elif "periksa" in x_text:                       
+        y_text = "where can I go for a tb test?"
+    elif "screen" in x_text:                       
+        y_text = "where can I go for a tb test?"
+    elif "screening" in x_text:                       
+        y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
         y_text = "what should I bring for tb testing?"
     elif "nearest hospitals" in x_text:
         y_text = "where are the nearest hospitals?"
     elif "nearest hospital" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospitals" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospital" in x_text:
         y_text = "where are the nearest hospitals?"
     elif "gombak" in x_text:
         y_text = "gombak"
@@ -76,28 +92,38 @@ def related(x_text):
         y_text = "sabak bernam"
     elif "x-ray" in x_text:
         y_text = "where are the nearest hospitals that provide x-ray service?"
+    elif "xray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
+    elif "x ray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "selangor" in x_text:
         y_text = "selangor"
-    elif "gombak area" in x_text:
+    elif "gombak area" == x_text:
         y_text = "gombak area"
-    elif "hulu langat area" in x_text:
+    elif "hulu langat area" == x_text:
         y_text = "hulu langat area"
-    elif "hulu selangor area" in x_text:
+    elif "hulu selangor area" == x_text:
         y_text = "hulu selangor area"
-    elif "kelang area" in x_text:
+    elif "kelang area" == x_text:
         y_text = "kelang area"
-    elif "kuala selangor area" in x_text:
+    elif "kuala selangor area" == x_text:
         y_text = "kuala selangor area"
-    elif "petaling area" in x_text:
+    elif "petaling area" == x_text:
         y_text = "petaling area"
-    elif "sabak area" in x_text:
+    elif "sabak area" == x_text:
         y_text = "sabak area"
-    elif "sepang area" in x_text:
+    elif "sepang area" == x_text:
         y_text = "sepang area"
     elif "putrajaya" in x_text:
         y_text = "putrajaya"
     elif "labuan" in x_text:
         y_text = "labuan"
+    elif "seminar" in x_text:
+        y_text = "when is the next tb seminar will be held?"
+    elif "workshop" in x_text:
+        y_text = "when is the next tb seminar will be held?"
+    elif "talk" in x_text:
+        y_text = "when is the next tb seminar will be held?"
     elif " " in x_text: 
         y_text = " "
     else: 
@@ -129,6 +155,10 @@ responses = {
         "I am feeling {0}".format(mood), 
         "{0}! How about you?".format(mood), 
         "I am {0}! How about yourself?".format(mood), 
+    ],
+
+    'fine': [
+        "What can I help you. I'm glad to serve you now."
     ],
 
     " ": [ 
@@ -339,7 +369,7 @@ responses = {
 
     "where are the nearest hospitals that provide x-ray service?": [
         '''
-        Where are the nearest hospitals? Type the area name listed below, i.e gombak
+        Where are the nearest hospitals? Type the area name listed below, i.e selangor
         1. selangor
         2. kuala lumpur
         3. labuan
@@ -437,6 +467,34 @@ responses = {
 
     "labuan": [
         "Klinik Kesihatan WP Labuan	(Functioning)"
+    ],
+
+    "number of hospitals in selangor": [
+        '''
+        DAERAH
+        Gombak             2
+        Hulu Langat       10
+        Hulu Selangor      3
+        Klang              1
+        Kuala Langat       1
+        Kuala Selangor     1
+        Petaling          23
+        Sabak Bernam       1
+        '''
+    ],
+
+    "when is the next tb seminar will be held?": [
+        '''
+        1. Hospital Sungai Buloh 
+            12 September 2021, Sunday
+            9.00 am to 12 pm
+            Contact 03-6145 4333 to found out more information about this seminar.
+
+        2. Hosiptal Kuala Lumpur
+            22 September 2021, Wednesday
+            2.00 pm to 4pm
+            Contact 03-2615 5555 to found out more information about this seminar.
+        '''
     ],
 
     "not understand": [
