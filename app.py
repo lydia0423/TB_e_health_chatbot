@@ -14,7 +14,7 @@ def response():
    if ques in responses:
        res = random.choice(responses[ques])
    else:
-       res = random.choice(responses[ques == 'not understand'])
+       res = responses[ques == 'not understand']
  
    return jsonify({"response" : res})
  
@@ -103,14 +103,14 @@ def related(x_text):
         y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
         y_text = "what should I bring for tb testing?"
+    elif "nearest hospitals" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "nearest hospital" in x_text:
+        y_text = "where are the nearest hospitals?"
     elif "hospitals" in x_text:
         y_text = "where are the nearest hospitals?"
-    # elif "nearest hospital" in x_text:
-    #     y_text = "where are the nearest hospitals?"
-    # elif "hospitals" in x_text:
-    #     y_text = "where are the nearest hospitals?"
-    # elif "hospital" in x_text:
-    #     y_text = "where are the nearest hospitals?"
+    elif "hospital" in x_text:
+        y_text = "where are the nearest hospitals?"
     elif "gombak" in x_text:
         y_text = "gombak"
     elif "hulu langat" in x_text:
@@ -179,9 +179,6 @@ def related(x_text):
  
 if __name__== "__main__":
    app.run(host="0.0.0.0",)
- 
-def similar(a, b):
-    return SequenceMatcher(None, a, b).ratio()
 
 # QnA template
 name = "Umi"
