@@ -14,7 +14,7 @@ def response():
    if ques in responses:
        res = random.choice(responses[ques])
    else:
-       res = responses[ques == 'not understand']
+       res = random.choice(responses[ques == 'not understand'])
  
    return jsonify({"response" : res})
  
@@ -179,6 +179,7 @@ def related(x_text):
  
 if __name__== "__main__":
    app.run(host="0.0.0.0",)
+ 
 
 # QnA template
 name = "Umi"
