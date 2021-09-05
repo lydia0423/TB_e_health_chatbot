@@ -1,7 +1,6 @@
 from re import X
 from flask import Flask, jsonify,request
 import random
-from difflib import SequenceMatcher
  
 app = Flask(__name__)
 @app.route("/bot", methods=["POST"])
@@ -64,7 +63,6 @@ def related(x_text):
         y_text = "how do I order medications"
     elif "membeli ubat" in x_text:
         y_text = "how do I order medications"
-    
     elif "side effect" in x_text:
         y_text = "how do I report side effects?"
     elif "information" in x_text:
@@ -137,7 +135,7 @@ def related(x_text):
         y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "selangor" in x_text:
         y_text = "selangor"
-    elif similar("gombak area", x_text):
+    elif "gombak area" in x_text:
         y_text = "gombak area"
     elif "hulu langat area" in x_text:
         y_text = "hulu langat area"
@@ -536,17 +534,17 @@ responses = {
  
    "When and where is the next tb seminar?": [
        '''
-Join us to learn more about TB with doctors and medical students from University Malaya at these locations: 
+        Join us to learn more about TB with doctors and medical students from University Malaya at these locations: 
  
-       1. Hospital Sungai Buloh
-           12 September 2021, Sunday
-           9.00 am to 12 pm
-           Contact 03-6145 4333 to find out more information about this seminar.
- 
-       2. Hospital Kuala Lumpur
-           22 September 2021, Wednesday
-           2.00 pm to 4pm
-           Contact 03-2615 5555 to find out more information about this seminar.
+        1. Hospital Sungai Buloh
+            12 September 2021, Sunday
+            9.00 am to 12 pm
+            Contact 03-6145 4333 to find out more information about this seminar.
+    
+        2. Hospital Kuala Lumpur
+            22 September 2021, Wednesday
+            2.00 pm to 4pm
+            Contact 03-2615 5555 to find out more information about this seminar.
        '''
    ],
  
