@@ -1,7 +1,7 @@
 from re import X
 from flask import Flask, jsonify,request
 import random
-from collections import Counter
+from difflib import SequenceMatcher
  
 app = Flask(__name__)
 @app.route("/bot", methods=["POST"])
@@ -20,170 +20,171 @@ def response():
    return jsonify({"response" : res})
  
 def related(x_text):
-   if "name" in x_text:
-       y_text = "what's your name?"
-   elif "robot" in x_text:
-       y_text = "are you a robot?"
-   elif "how are" in x_text:
-       y_text = "how are you?"
-   elif "hi" in x_text:
-       y_text = "how are you?"
-   elif "hello" in x_text:
-       y_text = "how are you?"
-   elif "video" in x_text:
-       y_text = "how do I upload videos?"
-   elif "videos" in x_text:
-       y_text = "how do I upload videos?"
-   elif "track record" in x_text:
-       y_text = "how can I check my track record of uploading the videos?"
-   elif "order medications" in x_text:
-       y_text = "how do I order medications"
-   elif "order medication" in x_text:
-       y_text = "how do I order medications"
-   elif "order medicine" in x_text:
-       y_text = "how do I order medications"
-   elif "order medicines" in x_text:
-       y_text = "how do I order medications"
-   elif "get medicine" in x_text:
-       y_text = "how do I order medications"
-   elif "get medicines" in x_text:
-       y_text = "how do I order medications"
-   elif "buy medicine" in x_text:
-       y_text = "how do I order medications"
-   elif "buy medicines" in x_text:
-       y_text = "how do I order medications"
-   elif "buy medication" in x_text:
-       y_text = "how do I order medications"
-   elif "buy medications" in x_text:
-       y_text = "how do I order medications"
-   elif "beli ubat" in x_text:
-       y_text = "how do I order medications"
-   elif "hantar ubat" in x_text:
-       y_text = "how do I order medications"
-   elif "menghantar ubat" in x_text:
-       y_text = "how do I order medications"
-   elif "membeli ubat" in x_text:
-       y_text = "how do I order medications"
- 
-   elif "side effect" in x_text:
-       y_text = "how do I report side effects?"
-   elif "information" in x_text:
-       y_text = "where can I find useful information regarding the use of the app?"
-   elif "tb" in x_text:
-       y_text = "where can I find useful information regarding tuberculosis?"
-   elif "contact" in x_text:
-       y_text = "who can I contact if I encounter a problem with the regarding app?"
-   elif "orange" in x_text:
-       y_text = "why is my urine orange in colour?"
-   elif "how to take" in x_text:
-       y_text = "how should I take the medications?"
-   elif "discharged" in x_text:
-       y_text = "how should I get about my day after being discharged from hospital?"
-   elif "eye clinic" in x_text:
-       y_text = "referral to eye clinic"
-   elif "household" in x_text:
-       y_text = "should my family members that I live with any of my household close contact get screened for TB?"
-   elif "default" in x_text:
-       y_text = "this is a default message"
-   elif "test" in x_text:
-       y_text = "where can I go for a tb test?"
-   elif "periksa" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "screen" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "screening" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "ujian" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "check-up" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "checkup" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "check for tb" in x_text:                      
-       y_text = "where can I go for a tb test?"
-   elif "check if i have tb" in x_text:                      
-       y_text = "where can I go for a tb test?"
- 
-   elif "bring" in x_text:
-       y_text = "what should I bring for tb testing?"
-   elif "nearest hospitals" in x_text:
-       y_text = "where are the nearest hospitals?"
-   elif "nearest hospital" in x_text:
-       y_text = "where are the nearest hospitals?"
-   elif "hospitals" in x_text:
-       y_text = "where are the nearest hospitals?"
-   elif "hospital" in x_text:
-       y_text = "where are the nearest hospitals?"
-   elif "gombak" in x_text:
-       y_text = "gombak"
-   elif "hulu langat" in x_text:
-       y_text = "hulu langat"
-   elif "hulu selangor" in x_text:
-       y_text = "hulu selangor"
-   elif "klang" in x_text:
-       y_text = "klang"
-   elif "kuala langat" in x_text:
-       y_text = "kuala langat"
-   elif "kuala selangor" in x_text:
-       y_text = "kuala selangor"
-   elif "petaling" in x_text:
-       y_text = "petaling"
-   elif "sabak bernam" in x_text:
-       y_text = "sabak bernam"
-   elif "x-ray" in x_text:
-       y_text = "where are the nearest hospitals that provide x-ray service?"
-   elif "xray" in x_text:
-       y_text = "where are the nearest hospitals that provide x-ray service?"
-   elif "x ray" in x_text:
-       y_text = "where are the nearest hospitals that provide x-ray service?"
-   elif "selangor" in x_text:
-       y_text = "selangor"
-   elif Counter("gombak area") in Counter(x_text):
-       y_text = "gombak area"
-   elif "hulu langat area" in x_text:
-       y_text = "hulu langat area"
-   elif "hulu selangor area" in x_text:
-       y_text = "hulu selangor area"
-   elif "kelang area" in x_text:
-       y_text = "kelang area"
-   elif "kuala selangor area" in x_text:
-       y_text = "kuala selangor area"
-   elif "petaling area" in x_text:
-       y_text = "petaling area"
-   elif "sabak area" in x_text:
-       y_text = "sabak area"
-   elif "sepang area" in x_text:
-       y_text = "sepang area"
-   elif "putrajaya" in x_text:
-       y_text = "putrajaya"
-   elif "labuan" in x_text:
-       y_text = "labuan"
-   elif "seminar" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "workshop" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "talk" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "class" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "kelas" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "learn about tb" in x_text:
-       y_text = "When and where is the next tb seminar?"
-   elif "learn" in x_text:
-       y_text = "When and where is the next tb seminar?"
- 
- 
-   elif " " in x_text:
-       y_text = " "
-   else:
-       y_text = "not understand"
-   return y_text
+    if "name" in x_text:
+        y_text = "what's your name?"
+    elif "robot" in x_text:
+        y_text = "are you a robot?"
+    elif "how are" in x_text:
+        y_text = "how are you?"
+    elif "hi" in x_text:
+        y_text = "how are you?"
+    elif "hello" in x_text:
+        y_text = "how are you?"
+    elif "video" in x_text:
+        y_text = "how do I upload videos?"
+    elif "videos" in x_text:
+        y_text = "how do I upload videos?"
+    elif "track record" in x_text:
+        y_text = "how can I check my track record of uploading the videos?"
+    elif "order medications" in x_text:
+        y_text = "how do I order medications"
+    elif "order medication" in x_text:
+        y_text = "how do I order medications"
+    elif "order medicine" in x_text:
+        y_text = "how do I order medications"
+    elif "order medicines" in x_text:
+        y_text = "how do I order medications"
+    elif "get medicine" in x_text:
+        y_text = "how do I order medications"
+    elif "get medicines" in x_text:
+        y_text = "how do I order medications"
+    elif "buy medicine" in x_text:
+        y_text = "how do I order medications"
+    elif "buy medicines" in x_text:
+        y_text = "how do I order medications"
+    elif "buy medication" in x_text:
+        y_text = "how do I order medications"
+    elif "buy medications" in x_text:
+        y_text = "how do I order medications"
+    elif "beli ubat" in x_text:
+        y_text = "how do I order medications"
+    elif "hantar ubat" in x_text:
+        y_text = "how do I order medications"
+    elif "menghantar ubat" in x_text:
+        y_text = "how do I order medications"
+    elif "membeli ubat" in x_text:
+        y_text = "how do I order medications"
+    
+    elif "side effect" in x_text:
+        y_text = "how do I report side effects?"
+    elif "information" in x_text:
+        y_text = "where can I find useful information regarding the use of the app?"
+    elif "tb" in x_text:
+        y_text = "where can I find useful information regarding tuberculosis?"
+    elif "contact" in x_text:
+        y_text = "who can I contact if I encounter a problem with the regarding app?"
+    elif "orange" in x_text:
+        y_text = "why is my urine orange in colour?"
+    elif "how to take" in x_text:
+        y_text = "how should I take the medications?"
+    elif "discharged" in x_text:
+        y_text = "how should I get about my day after being discharged from hospital?"
+    elif "eye clinic" in x_text:
+        y_text = "referral to eye clinic"
+    elif "household" in x_text:
+        y_text = "should my family members that I live with any of my household close contact get screened for TB?"
+    elif "default" in x_text:
+        y_text = "this is a default message"
+    elif "test" in x_text:
+        y_text = "where can I go for a tb test?"
+    elif "periksa" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "screen" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "screening" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "ujian" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "check-up" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "checkup" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "check for tb" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "check if i have tb" in x_text:                      
+        y_text = "where can I go for a tb test?"
+    elif "bring" in x_text:
+        y_text = "what should I bring for tb testing?"
+    elif "nearest hospitals" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "nearest hospital" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospitals" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospital" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "gombak" in x_text:
+        y_text = "gombak"
+    elif "hulu langat" in x_text:
+        y_text = "hulu langat"
+    elif "hulu selangor" in x_text:
+        y_text = "hulu selangor"
+    elif "klang" in x_text:
+        y_text = "klang"
+    elif "kuala langat" in x_text:
+        y_text = "kuala langat"
+    elif "kuala selangor" in x_text:
+        y_text = "kuala selangor"
+    elif "petaling" in x_text:
+        y_text = "petaling"
+    elif "sabak bernam" in x_text:
+        y_text = "sabak bernam"
+    elif "x-ray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
+    elif "xray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
+    elif "x ray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
+    elif "selangor" in x_text:
+        y_text = "selangor"
+    elif similar("gombak area", x_text):
+        y_text = "gombak area"
+    elif "hulu langat area" in x_text:
+        y_text = "hulu langat area"
+    elif "hulu selangor area" in x_text:
+        y_text = "hulu selangor area"
+    elif "kelang area" in x_text:
+        y_text = "kelang area"
+    elif "kuala selangor area" in x_text:
+        y_text = "kuala selangor area"
+    elif "petaling area" in x_text:
+        y_text = "petaling area"
+    elif "sabak area" in x_text:
+        y_text = "sabak area"
+    elif "sepang area" in x_text:
+        y_text = "sepang area"
+    elif "putrajaya" in x_text:
+        y_text = "putrajaya"
+    elif "labuan" in x_text:
+        y_text = "labuan"
+    elif "seminar" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "workshop" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "talk" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "class" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "kelas" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "learn about tb" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "learn" in x_text:
+        y_text = "When and where is the next tb seminar?"
+    elif "fine" in x_text:
+        y_text = "fine"
+    elif " " in x_text:
+        y_text = " "
+    else:
+        y_text = "not understand"
+    return y_text
  
 if __name__== "__main__":
    app.run(host="0.0.0.0",)
  
- 
+def similar(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
 # QnA template
 name = "Umi"
 mood = "Happy"
