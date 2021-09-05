@@ -1,3 +1,4 @@
+from re import X
 from flask import Flask, jsonify,request
 import random
  
@@ -136,21 +137,21 @@ def related(x_text):
        y_text = "where are the nearest hospitals that provide x-ray service?"
    elif "selangor" in x_text:
        y_text = "selangor"
-   elif "gombak area" == x_text:
+   elif "gombak area" in x_text and len("gombak area") == len(x_text):
        y_text = "gombak area"
-   elif "hulu langat area" == x_text:
+   elif "hulu langat area" in x_text:
        y_text = "hulu langat area"
-   elif "hulu selangor area" == x_text:
+   elif "hulu selangor area" in x_text:
        y_text = "hulu selangor area"
-   elif "kelang area" == x_text:
+   elif "kelang area" in x_text:
        y_text = "kelang area"
-   elif "kuala selangor area" == x_text:
+   elif "kuala selangor area" in x_text:
        y_text = "kuala selangor area"
-   elif "petaling area" == x_text:
+   elif "petaling area" in x_text:
        y_text = "petaling area"
-   elif "sabak area" == x_text:
+   elif "sabak area" in x_text:
        y_text = "sabak area"
-   elif "sepang area" == x_text:
+   elif "sepang area" in x_text:
        y_text = "sepang area"
    elif "putrajaya" in x_text:
        y_text = "putrajaya"
