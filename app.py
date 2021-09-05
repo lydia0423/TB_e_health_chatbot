@@ -1,6 +1,7 @@
 from re import X
 from flask import Flask, jsonify,request
 import random
+from collections import Counter
  
 app = Flask(__name__)
 @app.route("/bot", methods=["POST"])
@@ -137,7 +138,7 @@ def related(x_text):
        y_text = "where are the nearest hospitals that provide x-ray service?"
    elif "selangor" in x_text:
        y_text = "selangor"
-   elif "gombak area" in x_text and len("gombak area") == len(x_text):
+   elif Counter("gombak area") in Counter(x_text):
        y_text = "gombak area"
    elif "hulu langat area" in x_text:
        y_text = "hulu langat area"
