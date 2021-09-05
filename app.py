@@ -103,7 +103,7 @@ def related(x_text):
         y_text = "where can I go for a tb test?"
     elif "bring" in x_text:
         y_text = "what should I bring for tb testing?"
-    elif "nearest hospitals" in x_text:
+    elif "hospitals" in x_text:
         y_text = "where are the nearest hospitals?"
     # elif "nearest hospital" in x_text:
     #     y_text = "where are the nearest hospitals?"
