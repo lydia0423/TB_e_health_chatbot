@@ -67,7 +67,7 @@ def related(x_text):
         y_text = "how do I report side effects?"
     elif "information" in x_text:
         y_text = "where can I find useful information regarding the use of the app?"
-    elif "tb" in x_text:
+    elif "info" in x_text:
         y_text = "where can I find useful information regarding tuberculosis?"
     elif "contact" in x_text:
         y_text = "who can I contact if I encounter a problem with the regarding app?"
