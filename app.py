@@ -151,6 +151,8 @@ def related(x_text):
         y_text = "sabak area"
     elif "sepang area" in x_text:
         y_text = "sepang area"
+    elif "kuala lumpur" in x_text:
+        y_text = "kuala lumpur"
     elif "putrajaya" in x_text:
         y_text = "putrajaya"
     elif "labuan" in x_text:
@@ -171,6 +173,8 @@ def related(x_text):
         y_text = "When and where is the next tb seminar?"
     elif "fine" in x_text:
         y_text = "fine"
+    elif "number" in x_text:
+        y_text = "number of hospitals in selangor"
     elif " " in x_text:
         y_text = " "
     else:
@@ -518,6 +522,7 @@ responses = {
  
    "number of hospitals in selangor": [
        '''
+       Number of hospitals in Selangor
        DAERAH
        Gombak             2
        Hulu Langat       10
