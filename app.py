@@ -327,7 +327,7 @@ responses = {
        '''
    ],
  
-   "Where are the nearest hospitals?" : [
+   "where are the nearest hospitals?" : [
        '''
        Where are the nearest hospitals? Type the area name listed below, i.e gombak
        1. gombak
