@@ -131,21 +131,21 @@ def related(x_text):
         y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "selangor" in x_text:
         y_text = "selangor"
-    elif "gombak area" in x_text:
+    elif "1" in x_text:
         y_text = "gombak area"
-    elif "hulu langat area" in x_text:
+    elif "2" in x_text:
         y_text = "hulu langat area"
-    elif "hulu selangor area" in x_text:
+    elif "3" in x_text:
         y_text = "hulu selangor area"
-    elif "kelang area" in x_text:
-        y_text = "kelang area"
-    elif "kuala selangor area" in x_text:
+    elif "4" in x_text:
+        y_text = "klang area"
+    elif "5" in x_text:
         y_text = "kuala selangor area"
-    elif "petaling area" in x_text:
+    elif "6" in x_text:
         y_text = "petaling area"
-    elif "sabak area" in x_text:
+    elif "7" in x_text:
         y_text = "sabak area"
-    elif "sepang area" in x_text:
+    elif "8" in x_text:
         y_text = "sepang area"
     elif "kuala lumpur" in x_text:
         y_text = "kuala lumpur"
@@ -426,11 +426,11 @@ responses = {
  
    "selangor": [
        '''
-       Type the area name listed below (i.e gombak area):
+       Type the number listed below (i.e 1)
        1. gombak area
        2. hulu langat area
        3. hulu Selangor area
-       4. kelang area
+       4. klang area
        5. kuala selangor area
        6. petaling area
        7. sabak area
@@ -461,7 +461,7 @@ responses = {
        "Klinik Kesihatan Serendah (Functioning)"
    ],
  
-   "kelang area": [
+   "klang area": [
        '''
        1. Klinik Kesihatan Bukit Kuda (Functioning)
        2. Klinik Kesihatan Pandamaran (Non functioning)
