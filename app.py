@@ -107,6 +107,14 @@ def related(x_text):
         y_text = "where are the nearest hospitals?"
     elif "nearest hospital" in x_text:
         y_text = "where are the nearest hospitals?"
+    elif "hospitals near me" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospital near me" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospital nearby" in x_text:
+        y_text = "where are the nearest hospitals?"
+    elif "hospitals nearby" in x_text:
+        y_text = "where are the nearest hospitals?"
     elif "gombak" in x_text:
         y_text = "gombak"
     elif "hulu langat" in x_text:
