@@ -131,6 +131,8 @@ def related(x_text):
         y_text = "petaling"
     elif "sabak bernam" in x_text:
         y_text = "sabak bernam"
+    elif "Xray" in x_text:
+        y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "x-ray" in x_text:
         y_text = "where are the nearest hospitals that provide x-ray service?"
     elif "xray" in x_text:
